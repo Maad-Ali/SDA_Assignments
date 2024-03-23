@@ -7,7 +7,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class FirstTask {
+public class Task1Week6 {
     /*
     Create tests that depend on each other
     Create beforeClass and set up settings.

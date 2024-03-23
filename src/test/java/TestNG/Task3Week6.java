@@ -3,10 +3,11 @@ package TestNG;
 import TestPackage.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class ThirdTask extends TestBase {
+public class Task3Week6 extends TestBase {
 
 /* go to "https://practicetestautomation.com/practice-test-login/"
 enter username - "student"
@@ -17,6 +18,8 @@ SOFT ASSERT the error message is "Your password is invalid!" */
 WebDriver driver;
 @Test
     public void SoftAssertionsTests(){
+
+    driver = new ChromeDriver();
     bot.navigate("https://practicetestautomation.com/practice-test-login/");
     By usernameInput = By.id("username");
     By passwordInput = By.id("password");

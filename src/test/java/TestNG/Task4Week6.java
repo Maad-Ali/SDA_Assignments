@@ -1,17 +1,15 @@
 package TestNG;
 
-import TestPackage.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class FourthTask  {
+public class Task4Week6 {
     WebDriver driver;
     //Open the site: http://opencart.abstracta.us/index.php?route=account/login
     //Login with that credentials
@@ -43,8 +41,6 @@ public class FourthTask  {
         driver.findElement(LoginButton).click();
 
     }
-
-
 
     @Test(priority = 2, dataProvider = "searchData")
     public void Search(String searchTerm) {

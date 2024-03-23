@@ -45,4 +45,8 @@ public class ActionsBot {
             return true;
         });
     }
+    public String getText(By by) {
+        logger.info("getText: "+by);
+        return driver.findElement(by).getText();
+    }
 }

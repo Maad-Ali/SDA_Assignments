@@ -4,20 +4,20 @@
     <test name="Chrome Test">
         <parameter name="target-browser" value="chrome">Test</parameter>
         <classes>
-            <class name="TestNG.Task2Week6"/>
+            <class name="TestNG.Task5Week6"/>
         </classes>
     </test>
 
     <test name="Edge Test">
         <parameter name="target-browser" value="edge">Test</parameter>
         <classes>
-            <class name="TestNG.Task2Week6"/>
+            <class name="TestNG.Task5Week6"/>
         </classes>
     </test>
     <test name="FirefoxTest">
         <parameter name="target-browser" value="firefox">Test</parameter>
         <classes>
-            <class name="TestNG.Task2Week6"/>
+            <class name="TestNG.Task5Week6"/>
         </classes>
     </test>
 
